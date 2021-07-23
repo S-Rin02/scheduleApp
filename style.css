@@ -5,6 +5,9 @@
   -ms-user-select: none;
   user-select: none;
 }
+input, textarea {
+ -webkit-user-select : auto;
+}
 h1 {
   background-color: #00D9E1;
   text-align: center;
