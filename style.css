@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+h1 {
+  background-color: #00D9E1;
+  text-align: center;
+}
+#todo-app-btn {
+  position: absolute;
+  color: #656565;
+}
+#start-time {
+  font-size: 25px;
+  text-align: center;
+}
+#a {
+  display: flex;
+}
+#b,#c {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+
+#menu {
+  display: flex;
+}
+#time,
+#progress,
+#day {
+  margin: 10px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+}
+.menu-text {
+  text-align: center;
+}
+ul {
+  margin-top: 10px;
+  display: inline;
+  width: 100%;
+  margin-top: 10;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.span-time {
+  position: absolute;
+  right: 15%;
+}
+.span-done {
+  padding-right: 3px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff3333;
+  padding-right: 3px;
+}
+#option-btn-div {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}

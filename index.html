@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>スケジュール管理アプリ</title>
+</head>
+
+<body>
+  <button id="todo-app-btn" type="button"><a href="https://s-rin02.github.io/NewToDoApp/">To Do<br>アプリ</a></button>
+  <h1>My schedule</h1>
+  <p id="start-time">○時○分～</p>
+  <div id="a">
+    <div id="b">
+      <input class="start-time-text-box" id="start-time-h" type="number" placeholder="1日の始まりの時間 ○時" />
+      <input class="start-time-text-box" id="start-time-m" type="number" placeholder="1日の始まりの時間 ○分" />
+    </div>
+    <div id="c">
+      <input class="schedule-text-box" id="schedule" type="text" placeholder="スケジュール" />
+      <input class="schedule-text-box" id="schedule-time" type="number" placeholder="行う時間 ○分間" />
+    </div>
+  </div>
+  <div id="menu">
+    <div id="time">
+      <p class="menu-text" id="time-num-text">○分</p>
+      <p class="menu-text" id="time-text">前後している</p>
+    </div>
+    <div id="progress">
+      <p class="menu-text" id="progress-text">完了件数</p>
+      <p class="menu-text" id="progress-num-text">○/○</p>
+    </div>
+    <div id="day">
+      <p class="menu-text" id="today_js">何曜日</p>
+      <p class="menu-text" id="h-m-s">何時何分何秒</p>
+    </div>
+  </div>
+  <div id="schedule-list-parent">
+    <ul id="schedule-list">
+    </ul>
+  </div>
+  <div id="option-btn-div">
+    <button id="now-start" type="button" ondblclick="nowTimeStart()">
+      今からスタート</button>
+    <button id="reset-day" type="button" ondblclick="dayReset()">
+      1日リセット
+    </button>
+    <button id="schedule-reset" type="button" ondblclick="scheduleReset()">
+      予定リセット
+    </button>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+  
